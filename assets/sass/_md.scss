@@ -1,0 +1,59 @@
+@media screen and (max-width: 480px) {
+  /**************************/
+  /*      Table Styles      */
+  /**************************/
+  .table-container {
+    width: 100%;
+    margin: 0 auto;
+    header {
+      padding: 1.3rem 1.1em;
+      .col-table-1 {
+        width: 70%;
+      }
+
+      .col-table-2 {
+        width: 30%;
+        display: block;
+      }
+      .col-table-3 {
+        display: none;
+      }
+
+      .col-table-4 {
+        display: none;
+      }
+
+      .col-table-5 {
+        display: none;
+      }
+    }
+
+    .subtitle {
+      padding: 1rem 1.1em;
+      .col-table-1 {
+        width: 70%;
+      }
+
+      .col-table-2 {
+        width: 30%;
+        display: block;
+      }
+
+      .col-table-3 {
+        display: none;
+      }
+
+      .col-table-4 {
+        display: none;
+      }
+
+      .col-table-5 {
+        display: none;
+      }
+    }
+
+    .links {
+      padding: 1rem 1.1em;
+    }
+  }
+}

@@ -1,0 +1,134 @@
+@media screen and (max-width: 916px) {
+  .menu {
+    display: block;
+    position: fixed;
+    top: 0.9rem;
+    right: 1rem;
+    z-index: 100;
+    img {
+      width: 1.8em;
+    }
+  }
+
+  .user {
+    display: none;
+  }
+
+  /**************************/
+  /*      Header Styles     */
+  /**************************/
+
+  header {
+    width: 90%;
+
+    .img-logo {
+      width: 50%;
+      transform: translateY(0.25rem);
+      img {
+        width: 2rem;
+        height: 2rem;
+      }
+    }
+
+    .nav-row {
+      height: 100vh;
+      width: 16rem;
+      background: $divider-bg;
+      position: fixed;
+      top: 0;
+      left: -16rem;
+      z-index: 10;
+      overflow-y: auto;
+      overflow-x: hidden;
+      transition: all 0.3s ease;
+      @include flexItem(column, flex-start);
+
+      nav {
+        @include flexItem(column, flex-start);
+        ul {
+          @include flexItem(column, flex-start);
+          align-items: flex-start;
+          li {
+            margin: 1rem 0;
+
+            a {
+              font-size: 1em;
+              color: #5e6576;
+
+              &:hover {
+                color: #000;
+              }
+            }
+          }
+        }
+      }
+
+      &.active {
+        left: 0;
+        transition: all 0.5s ease;
+      }
+    }
+
+    .nav-end {
+      width: 30%;
+      transform: translateY(0.15rem);
+      margin-right: 3rem;
+    }
+  }
+
+  /**************************/
+  /*      Table Styles      */
+  /**************************/
+
+  .table-container {
+    width: 100%;
+    margin: 0 auto;
+    header {
+      .col-table-1 {
+        width: 28%;
+      }
+
+      .col-table-2 {
+        display: none;
+      }
+
+      .col-table-3 {
+        width: 18%;
+      }
+
+      .col-table-4 {
+        display: none;
+      }
+
+      .col-table-5 {
+        width: 50%;
+      }
+    }
+
+    .subtitle {
+      .col-table-1 {
+        width: 28%;
+      }
+
+      .col-table-2 {
+        display: none;
+      }
+
+      .col-table-3 {
+        width: 18%;
+
+        .status {
+          width: 86%;
+        }
+      }
+
+      .col-table-4 {
+        display: none;
+      }
+
+      .col-table-5 {
+        width: 50%;
+      }
+    }
+  }
+}

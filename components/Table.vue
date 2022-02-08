@@ -328,13 +328,11 @@
 
     <div class="links">
       <div class="row align-items-center justify-content-between">
-        <div class="col-sm-6 col-6">
-          <a href="" class="btn btn-o-p btn-outline-primary me-3"> Previous </a>
-          <a href="" class="btn btn-o-p btn-outline-primary me-3"> Next </a>
+        <div class="col-sm-6 col-7">
+          <a href="" class="btn btn-o-p btn-outline-primary"> Previous </a>
+          <a href="" class="btn btn-o-p btn-outline-primary ms-2"> Next </a>
         </div>
-        <div class="col-sm-6 col-6 text-end page-no">
-          Page 1 of 10
-        </div>
+        <div class="col-sm-6 col-5 text-end page-no">Page 1 of 10</div>
       </div>
     </div>
   </div>

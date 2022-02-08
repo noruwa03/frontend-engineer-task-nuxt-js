@@ -1,9 +1,3 @@
-export const state = () => ({
-  counter: 0,
-})
+export const state = () => ({})
 
-export const actions = {
-    INC: function () {
-       
-  },
-}
+export const actions = {}

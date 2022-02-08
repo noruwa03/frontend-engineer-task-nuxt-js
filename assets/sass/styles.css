@@ -746,6 +746,7 @@ header .nav-end .upgrade-now {
   -webkit-box-shadow: 0rem 0rem 0.1rem rgba(0, 0, 0, 0.1);
           box-shadow: 0rem 0rem 0.1rem rgba(0, 0, 0, 0.1);
   padding: 1rem 2em;
+  font-size: 0.88em;
 }
 
 .table-container .links .page-no {

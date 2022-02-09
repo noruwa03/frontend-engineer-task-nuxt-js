@@ -335,6 +335,13 @@
         <div class="col-sm-6 col-5 text-end page-no">Page 1 of 10</div>
       </div>
     </div>
+
+    <div class="mobile-link">
+      <div class="divider my-2"></div>
+      <i class="bi bi-arrow-left"></i>
+      <div class="page-no">Page 1 of 10</div>
+      <i class="bi bi-arrow-right"></i>
+    </div>
   </div>
 </template>
 

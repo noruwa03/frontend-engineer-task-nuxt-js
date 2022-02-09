@@ -393,7 +393,9 @@ header {
     border-radius: 0.5rem 0.5rem 0 0;
     @include flexItem(row, space-between);
 
-    font-size: 0.79em;
+    font-size: 0.87em;
+    font-weight: 500;
+    color: #5e6576;
 
     .col-table-1 {
       width: 28%;
@@ -573,6 +575,10 @@ header {
     .page-no {
       color: #5e6576;
     }
+  }
+
+  .mobile-link {
+    display: none;
   }
 }
 

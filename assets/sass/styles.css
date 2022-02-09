@@ -497,7 +497,9 @@ header .nav-end .upgrade-now {
           justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  font-size: 0.79em;
+  font-size: 0.87em;
+  font-weight: 500;
+  color: #5e6576;
 }
 
 .table-container header .col-table-1 {
@@ -751,6 +753,10 @@ header .nav-end .upgrade-now {
 
 .table-container .links .page-no {
   color: #5e6576;
+}
+
+.table-container .mobile-link {
+  display: none;
 }
 
 /**********************/
@@ -1146,6 +1152,35 @@ header .nav-end .upgrade-now {
   }
   .table-container .links {
     padding: 1rem 1.1em;
+    display: none;
+  }
+  .table-container .mobile-link {
+    display: block;
+    -webkit-box-shadow: 0rem 0rem 0.1rem rgba(0, 0, 0, 0.1);
+            box-shadow: 0rem 0rem 0.1rem rgba(0, 0, 0, 0.1);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 1rem 1.1em;
+    font-size: 0.88em;
+  }
+  .table-container .mobile-link .page-no {
+    color: #5e6576;
+  }
+  .table-container .mobile-link i {
+    font-size: 1.3em;
   }
 }
 /*# sourceMappingURL=styles.css.map */
